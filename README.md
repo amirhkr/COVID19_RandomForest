@@ -1,8 +1,8 @@
-# COVIDLib
+# COVID19_RandomForest
 ### *UQ ECMOCARD Data Analysis Pipeline*
 
 ### Rationale:
-- ACKNOLEDGEMENT: This project has included random forest models for COVID-19 project from https://github.com/athon-millane/covidlib
+- Acknowledgment: This project has included random forest models for COVID-19 project from https://github.com/athon-millane/covidlib
 ---
 ### Rationale:
 - `Pandas`, `SKLearn`, and `Matplotlib` are fantastic tools but have big featuresets and take quite a while to learn and use intuitively.
@@ -26,7 +26,9 @@
 
 ---
 ### Starting point:
-- For now the best notebook for end-to-end processing is [`compliance_regression.ipynb`](notebooks/experiments/compliance_regression.ipynb). Should run end to end on a consumer notebook in < 1 minute.
+- Notebotebook for regression random forest in relation to "COMPLIANCE_RESPIRATORY-SYSTEM" is [`compliance_regression.ipynb`](notebooks/experiments/compliance_regression.ipynb). 
+- Notebotebook for binary-classification random forest in relation to "MORTALITY" is [`outcome_BinaryClassifier.ipynb`](notebooks/experiments/outcome_BinaryClassifier.ipynb). 
+- Notebotebook for multi-classification random forest in relation to "MORTALITY" is [`outcome_MultiClassifier.ipynb`](notebooks/experiments/outcome_MultiClassifier.ipynb). 
 
 ---
 ### To do:
