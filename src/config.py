@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 # Latest file name - update when you update your data
-LATEST = 'v0.1.0_2020-05-25'
+LATEST = 'v0.2.0_2020-06-18'
 
 # Paths
 HOME      = Path(f'{os.getcwd()}/../../')

@@ -1,8 +1,8 @@
 # COVID19_RandomForest
 ### *UQ ECMOCARD Data Analysis Pipeline*
 
-### Rationale:
-- Acknowledgment: This project has included random forest models for COVID-19 project from https://github.com/athon-millane/covidlib
+### Acknowledgment:
+- This project has included random forest models for COVID-19 project from https://github.com/athon-millane/covidlib
 ---
 ### Rationale:
 - `Pandas`, `SKLearn`, and `Matplotlib` are fantastic tools but have big featuresets and take quite a while to learn and use intuitively.
