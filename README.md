@@ -14,7 +14,7 @@
 - `pipelines.py` will be an even more abstracted interface where users can simply define pipeline parameters as a nested dictionary (`.json` object) then instantiate the entire thing with very minimal code. Yet to make significant process.
 ---
 ### Install instructions:
-- **Locally (with Conda):** Ensure [conda](https://docs.conda.io/en/latest/miniconda.html) is installed, then run `conda env create -f env.yml .` followed by `conda activate covidlib` to activate environment, then `jupyter lab` to instantiate notebook IDE.
+- **Locally (with Conda):** Ensure [conda](https://docs.conda.io/en/latest/miniconda.html) is installed, then run `conda env create -f env.yml .` followed by `conda activate COVID19_RandomForest` to activate environment, then `jupyter lab` to instantiate notebook IDE.
 - **Locally (with Pip + virtualenv):** Just run `source pip-install.sh`. This is a simple script that creates a virtualenv, installs requirements and starts JupyterLab.
 - **With Docker:** Ensure [docker](https://docs.docker.com/get-docker/) is installed, then run `docker-compose up` and follow instructions. This will spin up a local version of JupyterLab which you can use in your browser.
 

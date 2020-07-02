@@ -13,7 +13,7 @@ echo "Install requirements for project."
 pip install -r requirements.txt
 
 echo "Add venv kernel to jupyter."
-python -m ipykernel install --user --name=venv --display-name="Python (covidlib)"
+python -m ipykernel install --user --name=venv --display-name="Python (COVID19_RandomForest)"
 
 echo "Start jupyter lab."
 jupyter lab
